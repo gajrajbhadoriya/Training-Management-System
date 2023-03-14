@@ -1,0 +1,21 @@
+{
+    "name": "jayde/training-management-system",
+    "description": "student management system",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ronak"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "6.3.x-dev"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "App\\": "src/"
+        }
+    }
+   
+}
